@@ -5,26 +5,25 @@
  Docker compose URL: https://docs.docker.com/compose/
  
  Here’s my basic setup for organizing my Docker files within a Laravel project:
-
-├── .docker
-│   └── php
-│       ├── Dockerfile
-│       └── vhost.conf
-├── app
-├── artisan
-├── bootstrap
-├── config
-├── database
-├── public
-├── readme.md
-├── resources
-├── routes
-├── storage
-├── tests
-├── composer.json
-├── composer.lock
-├── docker-compose.yml
-└── webpack.mix.js
+- ├── .docker
+- │   └── php
+- │       ├── Dockerfile
+- │       └── vhost.conf
+- ├── app
+- ├── artisan
+- ├── bootstrap
+- ├── config
+- ├── database
+- ├── public
+- ├── readme.md
+- ├── resources
+- ├── routes
+- ├── storage
+- ├── tests
+- ├── composer.json
+- ├── composer.lock
+- ├── docker-compose.yml
+- └── webpack.mix.js
 
 We will use our Dockerfile to build an image locally, using docker build command:
 
