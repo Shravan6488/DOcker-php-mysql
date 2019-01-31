@@ -64,15 +64,15 @@ Enter password:
 Server version: 5.7.18 MySQL Community Server (GPL)
 ...
 show databases;
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| laravel_docker     |
-| mysql              |
-| performance_schema |
-| sys                |
-+--------------------+
+- +--------------------+
+- | Database           |
+- +--------------------+
+- | information_schema |
+- | laravel_docker     |
+- | mysql              |
+- | performance_schema |
+- | sys                |
+- +--------------------+
 5 rows in set (0.01 sec)
 
 mysql>
