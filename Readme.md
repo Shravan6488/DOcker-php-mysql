@@ -57,7 +57,7 @@ c96ee5470ed7        redis:4.0-alpine
 
 #### Note : you need to give the id of the image which is listed in my case it is 6765ebec3a4a
 
-Now that you know how to run bash commands in the running container, let’s migrate the database:
+let’s migrate the database:
 
 ### $ php artisan migrate
 # Connecting to MySQL Locally
