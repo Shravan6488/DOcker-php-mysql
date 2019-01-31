@@ -1,13 +1,13 @@
 # Prerequisites:
  to install Docker on Mac, Linux, and Windows. 
 ## Docker CLI
- Mac: https://docs.docker.com/docker-for-mac/install/
- Linux: https://docs.docker.com/install/linux/docker-ce/ubuntu/
- Windows: https://docs.docker.com/docker-for-windows/install/
+- Mac: https://docs.docker.com/docker-for-mac/install/
+- Linux: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+- Windows: https://docs.docker.com/docker-for-windows/install/
  
  You Need install two important tools that we’ll use: the Docker CLI, and Docker Compose. 
  
- Docker compose URL: https://docs.docker.com/compose/
+- Docker compose URL: https://docs.docker.com/compose/
  
  Here’s my basic setup for organizing my Docker files within my project:
 - ├── .docker
