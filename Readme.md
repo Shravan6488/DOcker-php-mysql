@@ -1,5 +1,8 @@
 # Prerequisites:
- to install Docker on Mac, Linux, and Windows. 
+- Docker
+- git    -- https://www.atlassian.com/git/tutorials/install-git
+- dockercompose
+
 ## Docker CLI
 - Mac: https://docs.docker.com/docker-for-mac/install/
 - Linux: https://docs.docker.com/install/linux/docker-ce/ubuntu/
@@ -8,6 +11,10 @@
  You Need install two important tools that we’ll use: the Docker CLI, and Docker Compose. 
  
 - Docker compose URL: https://docs.docker.com/compose/
+
+# once you have installed the above need to clone the repo
+### git clone https://github.com/Shravan6488/DOcker-php-mysql.git
+
  
  Here’s my basic setup for organizing my Docker files within my project:
 - ├── .docker
@@ -32,8 +39,11 @@
 
 ## How to execute
 
+#### cd DOcker-php-mysql
+
 ## For mac/linux: execute 
-$ sh dockerexecute.sh
+#### $ sh dockerexecute.sh
+#### for windows double click on dockerexecute.sh file
 and follow below steps once the shell exeucting completes.
 ### $ docker ps
 CONTAINER ID        IMAGE                 
