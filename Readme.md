@@ -43,7 +43,7 @@
 
 ## For mac/linux: execute 
 #### $ sh dockerexecute.sh
-#### for windows double click on dockerexecute.sh file
+#### for windows double click on dockerexecute.bat file
 and follow below steps once the shell exeucting completes.
 ### $ docker ps
 CONTAINER ID        IMAGE                 
